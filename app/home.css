@@ -169,23 +169,27 @@
   fill: none;
   stroke: var(--ink);
 }
-.immune-icon circle:first-of-type {
-  fill: none;
-  stroke: var(--ink);
+.immune-icon .nucleus {
+  fill: var(--ink);
+  stroke: none;
 }
-.immune-icon circle:not(:first-of-type) {
-  fill: var(--accent-dark);
+.immune-icon .cell-dot {
+  fill: var(--ink);
   stroke: none;
 }
 .gut-icon > path {
   stroke: var(--ink);
-  stroke-width: 2.5;
+  stroke-width: 2.2;
 }
-.gut-icon rect,
-.gut-icon circle {
+.gut-icon .microbiome-lens {
   fill: var(--paper);
   stroke: var(--ink);
-  stroke-width: 1;
+  stroke-width: 2;
+}
+.gut-icon .microbe {
+  fill: var(--paper);
+  stroke: var(--ink);
+  stroke-width: 1.3;
 }
 .pathogen-icon rect {
   fill: var(--paper);
