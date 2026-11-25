@@ -22,9 +22,14 @@ export default function LatestPublications() {
             <br />
             Baxter I Biomedical Research Building · Room 124
           </p>
-          <Link className="text-link" href="/team">
-            Meet the team <span>→</span>
-          </Link>
+          <div className="people-links">
+            <Link className="text-link" href="/team">
+              Meet the team <span>→</span>
+            </Link>
+            <Link className="text-link" href="/funding">
+              Funding support <span>→</span>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

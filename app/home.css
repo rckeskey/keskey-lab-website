@@ -423,7 +423,14 @@
 .people-copy { display: grid; align-items: end; grid-template-columns: 1.3fr .7fr; gap: 80px; }
 .people-copy > h3 em { color: #ff5a5a; }
 .people-copy > p { margin: 0; color: #e3e3e3; font-size: 1.15rem; }
-.people-copy .text-link { grid-column: 2; justify-self: start; border-color: rgba(255,255,255,.4); color: white; }
+.people-links {
+  display: flex;
+  align-items: flex-start;
+  grid-column: 2;
+  flex-direction: column;
+  gap: 18px;
+}
+.people-copy .text-link { justify-self: start; border-color: rgba(255,255,255,.4); color: white; }
 
 footer { padding: 95px 0 30px; background: var(--ink); color: var(--paper); }
 .footer-top { display: flex; align-items: flex-end; justify-content: space-between; padding-bottom: 75px; }
@@ -476,7 +483,7 @@ footer { padding: 95px 0 30px; background: var(--ink); color: var(--paper); }
   .mission-body,
   .questions-grid,
   .people-copy { grid-template-columns: 1fr; gap: 35px; }
-  .people-copy .text-link { grid-column: 1; }
+  .people-links { grid-column: 1; }
   .footer-top { align-items: flex-start; flex-direction: column; gap: 40px; }
   .footer-bottom { align-items: start; grid-template-columns: 1fr; gap: 20px; }
 }
