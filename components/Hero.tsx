@@ -8,18 +8,21 @@ function MicrobiomeIllustration() {
           Critical illness, gut microbiome, host immunity, and pathogen virulence
         </title>
         <defs>
-          <marker id="arrow-black" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-            <path d="M0 0 6 3 0 6Z" />
+          <marker id="arrow-black" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+            <path d="M0 0 8 4 0 8Z" />
           </marker>
-          <marker id="arrow-red" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-            <path d="M0 0 6 3 0 6Z" />
+          <marker id="arrow-red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+            <path d="M0 0 8 4 0 8Z" />
           </marker>
         </defs>
 
-        <path className="system-arrow outer-arrow" d="M236 140C159 145 113 197 108 261" />
-        <path className="system-arrow outer-arrow" d="M384 140c77 5 123 57 128 121" />
-        <path className="system-arrow outer-arrow reverse-left" d="M123 365c16 77 72 119 137 124" />
-        <path className="system-arrow outer-arrow reverse-right" d="M497 365c-16 77-72 119-137 124" />
+        <path className="system-arrow stress-path" d="M236 140C178 148 139 186 125 232" />
+        <path className="system-arrow stress-path" d="M384 140c58 8 97 46 111 92" />
+
+        <path className="system-arrow interaction-arrow" d="M164 351l82 77" />
+        <path className="system-arrow interaction-arrow" d="M230 449l-82-77" />
+        <path className="system-arrow interaction-arrow" d="M456 351l-82 77" />
+        <path className="system-arrow interaction-arrow" d="M390 449l82-77" />
 
         <path className="system-arrow central-arrow down" d="M292 208v137" />
         <path className="system-arrow central-arrow up" d="M328 345V208" />

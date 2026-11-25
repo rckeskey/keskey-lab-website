@@ -206,11 +206,15 @@
   stroke-width: 1.5;
   marker-end: url("#arrow-black");
 }
-.outer-arrow {
-  stroke-dasharray: 4 7;
+.stress-path {
+  stroke-dasharray: 7 9;
+  stroke-width: 2.4;
+}
+.interaction-arrow {
+  stroke-width: 3.2;
 }
 .central-arrow {
-  stroke-width: 3;
+  stroke-width: 4;
 }
 .central-arrow.up {
   stroke: var(--accent);
