@@ -125,6 +125,11 @@
 }
 .hero-art { align-self: start; margin: 0; }
 .hero-art svg { width: 100%; color: var(--ink); }
+.hero-art-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .hero-art text {
   fill: var(--muted);
   font-family: var(--font-mono), monospace;
