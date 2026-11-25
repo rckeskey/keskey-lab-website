@@ -336,6 +336,14 @@
 .card-top { display: flex; align-items: flex-start; justify-content: space-between; }
 .card-top > span { color: var(--accent); font-family: var(--font-display), serif; font-size: 1.3rem; font-style: italic; }
 .card-top svg { width: 115px; fill: none; stroke: var(--muted); stroke-width: 1.2; }
+.figure-card-icon {
+  width: 125px;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+.figure-card-icon-pair {
+  width: 210px;
+}
 .research-card h3 {
   margin: 0 0 14px;
   font-family: var(--font-display), serif;
