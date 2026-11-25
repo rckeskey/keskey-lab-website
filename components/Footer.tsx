@@ -8,8 +8,8 @@ export default function Footer() {
           <p className="footer-label">Correspondence / collaboration</p>
           <h2>Curious minds welcome.</h2>
         </div>
-        <a className="contact-link" href="mailto:hello@keskeylab.org">
-          hello@keskeylab.org <span>↗</span>
+        <a className="contact-link" href="mailto:robert.keskey@louisville.edu">
+          robert.keskey@louisville.edu <span>↗</span>
         </a>
       </div>
       <div className="page-shell footer-bottom">
