@@ -288,6 +288,12 @@
   margin-top: 28px;
 }
 
+@media (min-width: 981px) {
+  .hero-art-image {
+    margin-top: 44px;
+  }
+}
+
 .mission,
 .research,
 .questions,
