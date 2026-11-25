@@ -100,9 +100,9 @@ export default function Hero() {
       <div className="page-shell hero-grid">
         <div className="hero-copy">
           <div className="hero-meta">
-            <p><span>Discipline</span><i /> Surgical science · Gut microbiome and host-pathogen interactions</p>
-            <p><span>Focus</span><i /> Surgery · Trauma · Critical illness</p>
-            <p><span>Laboratory</span><i /> University of Louisville School of Medicine</p>
+            <p><span>Discipline</span><i /> Surgical science · Gut microbiome · Host-pathogen interactions</p>
+            <p><span>Focus</span><i /> Surgery · Trauma · Critical care</p>
+            <p><span>Laboratory</span><i /> UofL School of Medicine, Baxter I, Room 124</p>
           </div>
           <h1 className="display">
             <small>Leveraging the</small>
