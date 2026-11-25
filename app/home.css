@@ -284,6 +284,9 @@
   letter-spacing: .1em;
   text-transform: uppercase;
 }
+.hero-art.hero-art-image figcaption {
+  margin-top: 28px;
+}
 
 .mission,
 .research,
