@@ -32,13 +32,15 @@ function MicrobiomeIllustration() {
         <g className="diagram-node patient-node">
           <circle cx="310" cy="111" r="88" />
           <g className="patient-icon">
-            <path d="M259 125h75v22h-75zM266 108h57c8 0 14 6 14 14v25M266 147v15m67-15v15" />
-            <circle cx="286" cy="98" r="11" />
-            <path d="M275 116c0-10 6-17 15-17 10 0 16 7 16 17M252 90h8v37M248 87h16v8h-16zM252 87V69h11M263 65v9" />
-            <path d="M342 78h31v51h-31zM348 91l5 7 6-12 7 10M348 110h19M357 129v12m-8 0h17" />
-            <circle cx="348" cy="138" r="3" />
-            <circle cx="368" cy="138" r="3" />
-            <path d="M337 119h5M373 103h8v23h-8M381 113h6" />
+            <path className="hospital-bed" d="M256 124h81v22h-81zM263 108h60c8 0 14 6 14 14v24M263 146v16m70-16v16M256 124v-21" />
+            <path className="patient-body" d="M270 113c3-9 10-14 20-14 10 0 18 5 22 14h11M297 113l16 11" />
+            <circle className="patient-head" cx="284" cy="95" r="11" />
+            <path className="oxygen-mask" d="M274 96h9l5 4-5 5h-8M288 101h8c7 0 11 4 11 11" />
+            <path className="iv-stand" d="M247 72v55M240 72h14M247 72v-9M242 82h10v13h-10zM247 95v9" />
+            <path className="monitor" d="M344 76h31v44h-31zM349 91l5 7 6-13 8 11M349 108h20M359 120v13m-10 0h20" />
+            <path className="ventilator" d="M340 120h39v17h-39zM348 137v7m23-7v7M337 113h7M375 98h8v25h-8M383 111h6" />
+            <circle className="equipment-wheel" cx="348" cy="146" r="3" />
+            <circle className="equipment-wheel" cx="371" cy="146" r="3" />
           </g>
           <text x="310" y="178">
             <tspan x="310">Critical illness</tspan>
@@ -80,13 +82,14 @@ function MicrobiomeIllustration() {
         <g className="diagram-node gut-node">
           <circle cx="310" cy="497" r="92" />
           <g className="gut-icon">
-            <path d="M254 480v53c0 15 20 15 20 0v-37c0-15 20-15 20 0v37c0 15 20 15 20 0v-37c0-15 20-15 20 0v48c0 17-10 27-24 27" />
-            <path d="M254 480h72c17 0 29 12 29 29v35M254 480c-17 0-29 12-29 29v35M225 544h29m101 0h-21" />
-            <circle className="microbiome-lens" cx="347" cy="473" r="25" />
-            <rect className="microbe" x="333" y="462" width="12" height="6" rx="3" transform="rotate(-15 339 465)" />
+            <path className="colon-outline" d="M250 483c-13 0-21 10-21 23v32c0 11 8 19 18 19 11 0 18-8 18-19v-37h91v38c0 18-11 30-28 30h-8" />
+            <path className="colon-detail" d="M239 487c5 4 10 5 16 3M229 514c8 4 16 4 24 0M230 540c8-4 16-4 24 0M276 501v34c0 12 17 12 17 0v-20c0-13 18-13 18 0v20c0 12 17 12 17 0v-34M279 488c5 6 5 11 0 16M306 488c5 6 5 11 0 16M334 488c5 6 5 11 0 16M343 520c6 4 10 4 15 0M342 546c6 4 10 4 14 0" />
+            <circle className="microbiome-lens" cx="346" cy="474" r="25" />
+            <rect className="microbe" x="332" y="461" width="12" height="6" rx="3" transform="rotate(-15 338 464)" />
             <rect className="microbe" x="349" y="457" width="11" height="6" rx="3" transform="rotate(18 354 460)" />
             <rect className="microbe" x="354" y="474" width="12" height="6" rx="3" transform="rotate(-48 360 477)" />
-            <rect className="microbe" x="337" y="478" width="11" height="6" rx="3" transform="rotate(36 342 481)" />
+            <rect className="microbe" x="336" y="478" width="11" height="6" rx="3" transform="rotate(36 341 481)" />
+            <circle className="microbe-dot" cx="348" cy="470" r="2.5" />
           </g>
           <text x="310" y="431">
             <tspan x="310">Gut microbiome</tspan>
